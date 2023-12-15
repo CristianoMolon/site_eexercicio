@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 18px;
+    background-color: #111010;
+    color:rgb(99, 99, 98)
+}
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    color: aliceblue;
+}
+
+header,
+section h2 {
+    font-family: 'Whisper', cursive;
+}
+
+header nav li {
+    display: inline;
+    margin-left: 15px;
+    font-size: 18px;
+}
+
+header nav li a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.conteiner {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header,
+section h2 {
+    font-weight: normal;
+}
+
+header .conteiner {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+}
+
+.conteiner {
+    max-width: 1080px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .conteiner,
+section .conteiner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.vitral {
+    width: 400px;
+    margin-right: 20px;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+section {
+    background-color: #3c3b3b;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 18px;
+}
+
+#ornstein img {
+    width: 400px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+}
+
+#Contact .conteiner {
+    display: block;
+}
+
+#Contact {
+    background-color: #111010;
+}
+
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-links img {
+    height: 24px;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+form button {
+    background-color: #171616;
+    color: #ecf0f1;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #f15800;
+}
+
+input:focus, textarea:focus {
+    outline-color: #db6103
+}
